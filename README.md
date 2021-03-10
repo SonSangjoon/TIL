@@ -1,2 +1,2 @@
 # TIL
-today i learn never ends
+today i learn that woutld never end
