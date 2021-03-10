@@ -8,3 +8,18 @@ origin  https://github.com/username/repository.git (push)
 #Change existing remotes to new url
 $ git remote set-url origin https://github.com/username/newrepository.git
 ```
+
+# Branch
+
+```
+
+$ git checkout `branch name` # move branch
+
+#create branch
+$ git branch <branch name>
+$ git checkout -b <branch name> 
+$ git checkout -b <sub branch name> <branch name> #create sub branch 
+
+#delete branch
+$ git branch -d <branch>
+```
