@@ -6,6 +6,7 @@ def solution(N):
         return ans[N]
     for i in range(2,N+1):
         ans.append(ans[i-2]+ans[i-1])
+
     return ans[N]
 
 print(solution(N))

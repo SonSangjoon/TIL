@@ -33,6 +33,7 @@ def solution():
             else:
                 LCS[i][j] = max(LCS[i-1][j], LCS[i][j-1])
     print(LCS[len_A-1][len_B-1])
+    print(LCS)
     print_lcs()
 
 solution()
