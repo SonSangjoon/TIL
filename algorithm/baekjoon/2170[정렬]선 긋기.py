@@ -17,6 +17,7 @@ for i in range(N):
 
 # temp_s =  opt[0][0]
 # temp_e =  opt[0][1]
+
 # for i in range(1, len(opt)):
 #     s, e = opt[i][0], opt[i][1]
 #     if temp_s <= s <= temp_e:
@@ -26,5 +27,5 @@ for i in range(N):
 #         ans += temp_e - temp_s
 #         temp_s, temp_e = s, e
 
-# ans += e-s
+ans += e-s
 print(ans)
