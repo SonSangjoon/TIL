@@ -18,5 +18,3 @@ for i in range(len(A)):
     R = deque(R)
 
     count = D + A
-
-    dq.popleft()
