@@ -9,8 +9,6 @@ ans = max_y
 
 while lst:
     x, y = lst.pop()
-    if x == max_x:
-        continue
     if x < left:
         ans += (left - x) * y
         left = x
